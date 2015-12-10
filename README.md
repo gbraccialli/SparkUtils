@@ -9,6 +9,9 @@ spark-submit --class com.github.gbraccialli.spark.PhoenixSparkSample target/Spar
 
 ##Spark Submit + Hive Commands
 ```
+git clone https://github.com/gbraccialli/SparkUtils
+cd SparkUtils/
+mvn clean package
 spark-submit \
   --class com.github.gbraccialli.spark.HiveCommand \
   --master yarn-cluster \
