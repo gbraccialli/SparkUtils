@@ -1,6 +1,5 @@
 # SparkUtils
-##Spark Submit + Phoenix Table<br/>
-<br/>
+##Spark Submit + Phoenix Table
 `
 git clone https://github.com/gbraccialli/SparkUtils
 cd SparkUtils/
@@ -9,8 +8,6 @@ spark-submit --class com.github.gbraccialli.spark.PhoenixSparkSample target/Spar
 `
 
 ##Spark Submit + Hive Commands
-<br/>
-<br/>
 `
 spark-submit \
   --class com.github.gbraccialli.spark.HiveCommand \
