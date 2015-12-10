@@ -1,5 +1,6 @@
 # SparkUtils
-Spark Submit + Phoenix Table
+##Spark Submit + Phoenix Table<br/>
+<br/>
 `
 git clone https://github.com/gbraccialli/SparkUtils
 cd SparkUtils/
@@ -7,7 +8,9 @@ mvn clean package
 spark-submit --class com.github.gbraccialli.spark.PhoenixSparkSample target/SparkUtils-1.0.0-SNAPSHOT.jar
 `
 
-Spark Submit + Hive Commands
+##Spark Submit + Hive Commands
+<br/>
+<br/>
 `
 spark-submit \
   --class com.github.gbraccialli.spark.HiveCommand \
